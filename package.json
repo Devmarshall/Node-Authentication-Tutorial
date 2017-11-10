@@ -1,0 +1,45 @@
+{
+    "name": "node-authentication-tutorial",
+    "version": "1.0.0",
+    "description": "Node Authentication with Google, Twitter, Facebook signup and login",
+    "main": "server.js",
+    "scripts": {
+        "test": "nodemon server",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Devmarshall/Node-Authentication-Tutorial.git"
+    },
+    "keywords": [
+        "authentication",
+        "tutorial",
+        "node",
+        "auth",
+        "passport"
+    ],
+    "author": "devMarshall",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Devmarshall/Node-Authentication-Tutorial/issues"
+    },
+    "homepage": "https://github.com/Devmarshall/Node-Authentication-Tutorial#readme",
+    "dependencies": {
+        "express": "~4.0.0",
+        "ejs": "~0.8.5",
+        "mongoose": "~4.13.1",
+        "passport": "~0.1.17",
+        "passport-local": "~0.1.6",
+        "passport-facebook": "~1.0.2",
+        "passport-twitter": "~1.0.2",
+        "passport-google-oauth": "~0.1.5",
+        "connect-flash": "~0.1.1",
+        "bcrypt-nodejs": "latest",
+        "morgan": "~1.0.0",
+        "body-parser": "~1.0.0",
+        "cookie-parser": "~1.0.0",
+        "method-override": "~1.0.0",
+        "cors": "^2.8.4",
+        "express-session": "~1.0.0"
+    }
+}
